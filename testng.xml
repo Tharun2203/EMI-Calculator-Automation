@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EMI Calculator Automation Suite">
+    <test name="EMI Calculator Tests">
+        <classes>
+            <class name="testCases.TC_001_CarLoan"/>
+            <class name="testCases.TC_002_HomeLoan"></class>
+        </classes>
+    </test>
+</suite>

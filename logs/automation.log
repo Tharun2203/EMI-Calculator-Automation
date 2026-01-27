@@ -1,0 +1,66 @@
+2026-01-26 21:39:07 [main] INFO  testCases.TC_001_CarLoan - ====Test Suite Started====
+2026-01-26 21:39:07 [main] INFO  Listeners.DriverFactory - Initializing Chrome Driver
+2026-01-26 21:39:09 [main] INFO  Listeners.DriverFactory - Navigating to EMI Calculator Website
+2026-01-26 21:39:46 [main] INFO  testCases.TC_001_CarLoan - Browser launched
+2026-01-26 21:39:47 [main] INFO  testCases.TC_001_CarLoan - Extent Report Initialized
+2026-01-26 21:39:47 [main] INFO  testCases.TC_001_CarLoan - *** Started Test Case TC_001_CarLoan ***
+2026-01-26 21:39:52 [main] INFO  testCases.TC_001_CarLoan - ====Test Suite Ended====
+2026-01-26 22:01:09 [main] INFO  testCases.TC_001_CarLoan - ====Test Suite Started====
+2026-01-26 22:01:09 [main] INFO  Listeners.DriverFactory - Initializing Chrome Driver
+2026-01-26 22:01:13 [main] INFO  Listeners.DriverFactory - Navigating to EMI Calculator Website
+2026-01-26 22:01:56 [main] INFO  testCases.TC_001_CarLoan - Browser launched
+2026-01-26 22:01:57 [main] INFO  testCases.TC_001_CarLoan - Extent Report Initialized
+2026-01-26 22:01:57 [main] INFO  testCases.TC_001_CarLoan - *** Started Test Case TC_001_CarLoan ***
+2026-01-26 22:02:06 [main] INFO  testCases.TC_001_CarLoan - ====Test Suite Ended====
+2026-01-26 22:03:14 [main] INFO  testCases.TC_001_CarLoan - ====Test Suite Started====
+2026-01-26 22:03:14 [main] INFO  Listeners.DriverFactory - Initializing Chrome Driver
+2026-01-26 22:03:17 [main] INFO  Listeners.DriverFactory - Navigating to EMI Calculator Website
+2026-01-26 22:03:45 [main] INFO  testCases.TC_001_CarLoan - Browser launched
+2026-01-26 22:03:46 [main] INFO  testCases.TC_001_CarLoan - Extent Report Initialized
+2026-01-26 22:03:46 [main] INFO  testCases.TC_001_CarLoan - *** Started Test Case TC_001_CarLoan ***
+2026-01-26 22:03:52 [main] INFO  testCases.TC_001_CarLoan - ====Test Suite Ended====
+2026-01-27 10:23:55 [main] INFO  testCases.TC_001_CarLoan - ====Test Suite Started====
+2026-01-27 10:23:55 [main] INFO  Listeners.DriverFactory - Initializing Chrome Driver
+2026-01-27 10:24:00 [main] INFO  Listeners.DriverFactory - Navigating to EMI Calculator Website
+2026-01-27 10:24:08 [main] INFO  testCases.TC_001_CarLoan - Browser launched
+2026-01-27 10:24:09 [main] INFO  testCases.TC_001_CarLoan - Extent Report Initialized
+2026-01-27 10:24:09 [main] INFO  testCases.TC_001_CarLoan - *** Started Test Case TC_001_CarLoan ***
+2026-01-27 10:24:17 [main] INFO  testCases.TC_001_CarLoan - ====Test Suite Ended====
+2026-01-27 10:31:46 [main] INFO  testCases.TC_001_CarLoan - ====Test Started====
+2026-01-27 10:31:46 [main] INFO  Listeners.DriverFactory - Initializing Chrome Driver
+2026-01-27 10:31:50 [main] INFO  Listeners.DriverFactory - Navigating to EMI Calculator Website
+2026-01-27 10:31:55 [main] INFO  testCases.TC_001_CarLoan - Browser launched
+2026-01-27 10:31:55 [main] INFO  testCases.TC_001_CarLoan - *** Started Test Case TC_001_CarLoan ***
+2026-01-27 10:32:02 [main] INFO  testCases.TC_001_CarLoan - ====Test Ended====
+2026-01-27 10:32:07 [main] INFO  testCases.TC_002_HomeLoan - ====Test Started====
+2026-01-27 10:32:07 [main] INFO  Listeners.DriverFactory - Initializing Chrome Driver
+2026-01-27 10:32:10 [main] INFO  Listeners.DriverFactory - Navigating to EMI Calculator Website
+2026-01-27 10:32:15 [main] INFO  testCases.TC_002_HomeLoan - Browser launched
+2026-01-27 10:32:21 [main] INFO  testCases.TC_002_HomeLoan - ====Test Ended====
+2026-01-27 10:33:40 [main] INFO  testCases.TC_001_CarLoan - ====Test Started====
+2026-01-27 10:33:40 [main] INFO  Listeners.DriverFactory - Initializing Chrome Driver
+2026-01-27 10:33:44 [main] INFO  Listeners.DriverFactory - Navigating to EMI Calculator Website
+2026-01-27 10:33:48 [main] INFO  testCases.TC_001_CarLoan - Browser launched
+2026-01-27 10:33:48 [main] INFO  testCases.TC_001_CarLoan - *** Started Test Case TC_001_CarLoan ***
+2026-01-27 10:33:56 [main] INFO  testCases.TC_001_CarLoan - ====Test Ended====
+2026-01-27 10:34:01 [main] INFO  testCases.TC_002_HomeLoan - ====Test Started====
+2026-01-27 10:34:01 [main] INFO  Listeners.DriverFactory - Initializing Chrome Driver
+2026-01-27 10:34:05 [main] INFO  Listeners.DriverFactory - Navigating to EMI Calculator Website
+2026-01-27 10:34:10 [main] INFO  testCases.TC_002_HomeLoan - Browser launched
+2026-01-27 10:34:39 [main] INFO  testCases.TC_002_HomeLoan - ====Test Ended====
+2026-01-27 10:50:05 [main] INFO  testCases.TC_001_CarLoan - ====Test Started====
+2026-01-27 10:50:05 [main] INFO  Listeners.DriverFactory - Initializing Chrome Driver
+2026-01-27 10:50:09 [main] INFO  Listeners.DriverFactory - Navigating to EMI Calculator Website
+2026-01-27 10:50:10 [main] INFO  testCases.TC_001_CarLoan - Browser launched
+2026-01-27 10:50:10 [main] INFO  testCases.TC_001_CarLoan - *** Started Test Case TC_001_CarLoan ***
+2026-01-27 10:50:23 [main] INFO  testCases.TC_001_CarLoan - ====Test Started====
+2026-01-27 10:50:23 [main] INFO  Listeners.DriverFactory - Initializing Chrome Driver
+2026-01-27 10:50:28 [main] INFO  Listeners.DriverFactory - Navigating to EMI Calculator Website
+2026-01-27 10:50:32 [main] INFO  testCases.TC_001_CarLoan - Browser launched
+2026-01-27 10:50:33 [main] INFO  testCases.TC_001_CarLoan - *** Started Test Case TC_001_CarLoan ***
+2026-01-27 10:50:40 [main] INFO  testCases.TC_001_CarLoan - ====Test Ended====
+2026-01-27 10:50:44 [main] INFO  testCases.TC_002_HomeLoan - ====Test Started====
+2026-01-27 10:50:44 [main] INFO  Listeners.DriverFactory - Initializing Chrome Driver
+2026-01-27 10:50:48 [main] INFO  Listeners.DriverFactory - Navigating to EMI Calculator Website
+2026-01-27 10:50:52 [main] INFO  testCases.TC_002_HomeLoan - Browser launched
+2026-01-27 10:51:19 [main] INFO  testCases.TC_002_HomeLoan - ====Test Ended====
