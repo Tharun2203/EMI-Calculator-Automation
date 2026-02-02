@@ -13,29 +13,26 @@ public class TC_002_HomeLoan extends BaseClass {
     ExtentTest test;
     @Test
     public void homeLoanStep2Test() {
-
-        test = extent.createTest("TC_002 - Home Loan EMI Calculator");
-
+        log.info("****** Started TC_002_HomeLoan ******");
         HomeLoanPage homeLoan = new HomeLoanPage(driver);
 
-        test.info("Opening Home Loan EMI Calculator");
+
+        log.info("Opening Home Loan EMI Calculator");
         homeLoan.openHomeLoanCalculator();
 
-        test.info("Entering Home Loan details till Date Picker");
+
+        log.info("Entering Home Loan Details till Date Picker");
         homeLoan.enterDetailsTillDatePicker();
 
-        test.info("Capturing Home Loan Results Screenshot");
+
+        log.info("Capturing Screenshot and Extracting Year Wise Table Data");
         homeLoan.captureResultScreenshot();
 
-        test.info("Extracting Year-on-Year table data");
+
+        log.info("Writing Year Wise Table Data to Excel");
         List<List<String>> tableData = homeLoan.extractYearWiseTable();
+        ExcelUtils.writeHomeLoanData("src/test/resources/testdata/HomeLoan_YearlyData.xlsx", tableData);
 
-        test.info("Writing extracted data into Excel");
-        ExcelUtils.writeHomeLoanData(
-                "src/test/resources/testdata/HomeLoan_YearlyData.xlsx",
-                tableData
-        );
-
-        test.pass("STEP 2 completed and data written to Excel successfully");
+        log.info("**** Finished Test Case TC_002_HomeLoan ****");
     }
 }

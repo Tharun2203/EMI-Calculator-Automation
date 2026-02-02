@@ -8,19 +8,17 @@ import testBase.BaseClass;
 public class TC_001_CarLoan extends BaseClass {
     @Test
     public void carLoanTest() throws InterruptedException {
-        ExtentTest test=extent.createTest("TC_001_-CarLoanTest");
-        log.info("*** Started Test Case TC_001_CarLoan ***");
+        log.info("****** Started TC_001_CarLoan ******");
         CarLoanPage carLoan=new CarLoanPage(driver);
-        test.info("Selecting Car Loan Tab");
+        log.info("Selecting Car Loan Tab");
         carLoan.selectCarLoan();
 
-        test.info("Clearing default values and entering new data");
+        log.info("Entering Car Loan Details");
         carLoan.enterCarLoanDetails();
 
-        test.info("Scrolling to Results Section");
+        log.info("Printing Car Loan Results into Console");
         carLoan.printCarLoanResults();
 
-
-        test.pass("Car Loan Emi Calculated and displayed successfully");
+        log.info("***** * Finished Test Case TC_001_CarLoan ******");
     }
 }

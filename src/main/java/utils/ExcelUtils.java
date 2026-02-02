@@ -22,7 +22,7 @@ public class ExcelUtils {
                 workbook.removeSheetAt(index);
             }
             sheet = workbook.createSheet("Yearly_Breakup");
-            int rowNum = 0;
+            int rowNum = 1;
             for (List<String> rowData : tableData) {
                 Row row = sheet.createRow(rowNum++);
                 int colNum = 0;

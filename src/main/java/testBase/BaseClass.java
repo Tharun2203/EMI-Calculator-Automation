@@ -12,32 +12,31 @@ import org.testng.annotations.BeforeSuite;
 import utils.ExtentReportManager;
 
 public class BaseClass {
-    protected WebDriver driver;
+    protected static WebDriver driver;
     protected static ExtentReports extent;
-    public Logger log;
+    protected static Logger log;
 
-    @BeforeSuite
-    public void beforeSuite(){
-        extent= ExtentReportManager.getReportInstance();
-    }
+
 
     @BeforeMethod
     public void setUp(){
         log= LogManager.getLogger(this.getClass());
-        log.info("====Test Started====");
+        log.info("====Test Suite Started====");
 
         driver= DriverFactory.initDriver();
         log.info("Browser launched");
+
+        extent=ExtentReportManager.getReportInstance();
+        log.info("Extent report initialized");
     }
 
     @AfterMethod
-    public void tearDown(){
-        log.info("====Test Ended====");
-        driver.quit();
-    }
-
-    @AfterSuite
-    public void afterSuite() {
+    public void tearDown() {
+        log.info("====Test Suite Ended====");
         extent.flush();
+
+        if(driver!=null){
+            driver.quit();
+        }
     }
 }

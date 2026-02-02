@@ -74,12 +74,12 @@ public class HomeLoanPage extends BasePage {
         type(loanInterest, "7.5");
         type(loanTenure, "20");
         type(loanFees, "0.25");
-        type(startMonthYear, "Jan 2026");
+        type(startMonthYear, "Feb 2026");
     }
 
     public void captureResultScreenshot() {
         scrollToElement(resultSection);
-        hardWait(3);
+        hardWait(2);
         ScreenshotUtil.takeScreenshot(driver, "HomeLoanResultSection");
     }
 
